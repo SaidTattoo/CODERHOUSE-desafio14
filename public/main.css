@@ -1,0 +1,29 @@
+#chat{
+    background-color: #ccc;
+    border-radius:10px;
+    width: 100%;
+    padding:20px;
+}
+#chat li {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    background-color:white;
+    margin:5px;
+    border-radius: 5px;
+}
+
+#chat span{
+    color:brown;
+    font-size: 10px;
+    display: flex;
+    flex-direction: flex-end;
+}
+.usuario{
+    color:blue;
+    font-weight: bold;
+}
+.mensaje{
+    color:green;
+    font-style: italic;
+}

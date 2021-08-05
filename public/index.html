@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+
+    <title>DESAFIO 9</title>
+    <style>
+      .box {
+        width: 300px;
+        margin: auto;
+        padding:20px;
+        text-align: center;
+        border-radius: 50px;
+        background: #ffffff;
+        box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <form action="api/productos/guardar" method="POST">
+        <h2>Ingresar producto</h2>
+        <div class="form-group">
+            <label for="title">Titulo</label>
+            <input class="form-control" name="title" type="text" />
+        </div>
+        <div class="form-group">
+            <label for="price">precio</label>
+            <input class="form-control"  name="price" type="text" />
+        </div>
+        <div class="form-group">
+            <label for="thumbnail">thumbnail</label>
+            <input class="form-control"  name="thumbnail" type="text" />
+        </div>
+        <button class="btn btn-success"  >Enviar</button>
+      </form>
+    </div>
+  </body>
+  </html>

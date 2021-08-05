@@ -1,0 +1,44 @@
+<h2>Crear producto</h2>
+<div class="box">
+  {{! <form action="api/productos/guardar" method="POST" > }}
+  <h2>Ingresar producto</h2>
+  <div class="form-group">
+    <label for="title">Titulo</label>
+    <input id="title" class="form-control" name="title" type="text" />
+  </div>
+  <div class="form-group">
+    <label for="price">precio</label>
+    <input id="price" class="form-control" name="price" type="text" />
+  </div>
+  <div class="form-group">
+    <label for="thumbnail">thumbnail</label>
+    <input id="thumbnail" class="form-control" name="thumbnail" type="text" />
+  </div>
+  <button id="addList" class="btn btn-success">Enviar</button>
+  {{! </form> }}
+</div>
+<div id="table">
+</div>
+
+<div>
+  <h2>Centro de mensajes</h2>
+  <label for="">Email de usuario</label>
+  <input type="text" id="username">
+  <div id="chat">
+    <div id="mensajes">
+
+    </div>  
+ <div>
+
+    <div class="input-group">
+    <input class="form-control"  type="text"  id="txtmessage" aria-label="Example select with button addon">
+    
+    </input>
+    <button  id="enviarMsj" class="btn btn-success" type="button">Button</button>
+  </div>
+
+  </div>
+  </div>
+ 
+ <div id="escribiendo"></div>
+</div>
